@@ -27,6 +27,10 @@ $(call inherit-product, device/xiaomi/daisy/device.mk)
 # Inherit some common HavocOS stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
+# Gapps
+TARGET_GAPPS_ARCH := arm64
+USE_GAPPS := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
 PRODUCT_NAME := havoc_daisy
