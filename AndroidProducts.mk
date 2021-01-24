@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_daisy.mk
+    $(LOCAL_DIR)/rr_daisy.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_daisy-eng \
-    nad_daisy-user \
-    nad_daisy-userdebug
+    rr_daisy-eng \
+    rr_daisy-user \
+    rr_daisy-userdebug

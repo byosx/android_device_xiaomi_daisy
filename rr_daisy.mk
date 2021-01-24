@@ -24,19 +24,16 @@ $(call inherit-product, vendor/MiuiCamera/config.mk)
 # Inherit from daisy device
 $(call inherit-product, device/xiaomi/daisy/device.mk)
 
-# Inherit some common NusantaraROM stuff.
-$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+# Inherit some common Resurrection Remix stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Gapps
-TARGET_GAPPS_ARCH := arm64
-USE_GAPPS := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
-PRODUCT_NAME := nad_daisy
+PRODUCT_NAME := rr_daisy
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Xiaomi Mi A2 Lite
